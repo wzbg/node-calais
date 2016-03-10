@@ -12,7 +12,7 @@ Install using npm:
 ## Usage
 
 ```javascript
-const Calais = require('./index')
+const Calais = require('node-calais')
 const calais = new Calais('<YOUR API KEY>')
 const content = 'The Federal Reserve is the enemy of Ron Paul.'
 calais.exec(content)
